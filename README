@@ -1,0 +1,17 @@
+web2mail
+--------
+
+This is a project inspired by reports that RMS reads web pages by
+email, to create a email to web gateway.
+
+It depends on:
+
+* twisted
+* zope.interface
+
+At the moment it does nothing and if you download it you've probably
+found my in-progress-hack version.
+
+Author: Michael Stevens <mstevens@etla.org:
+Copyright (C) 2010
+File: README
