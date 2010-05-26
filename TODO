@@ -1,0 +1,16 @@
+Things to do!
+-------------
+
+* DB Definition
+* Write help file
+* Hook up help file
+* Mails to register@host generate a code, store, and reply
+* Mails with the code mark them as signed up
+* Accept mails with urls and parse
+* Take a URL and generate a nice plain text version.
+* Send back the text!
+* Setup DKIM
+* Setup SPF
+* Create subdomain
+* Add config file
+* Make twisted daemonize

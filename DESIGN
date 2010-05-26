@@ -1,0 +1,37 @@
+Design notes
+------------
+
+This is all meant to be done using twisted.
+
+It's the SMTP server (obviously!).
+
+Data storage will be postgres.
+
+Signup: email register@host
+
+Does the double-opt-in dance.
+
+Confirmation codes stored in psql.
+
+Help: email help@host
+
+Sends back a help message!
+
+Fetch: get@domain
+
+Body should be a list of urls to fetch.
+
+Stop parsing at something that looks like a sig.
+
+Return one email per page requested.
+
+Non-registered addresses are ignored!
+
+For v1 just send back a plain text rendering.
+v2 should send the HTML as well.
+
+Unregister: leave@host
+
+Again, the double-opt-in dance, then remove people.
+
+Do the SPF/DKIM thing via postfix.
